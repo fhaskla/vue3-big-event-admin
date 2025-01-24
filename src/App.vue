@@ -1,11 +1,10 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
-  "我是APP"
+  我是APP
 </template>
 
 <style scoped>
-div {
-  color: red;
-}
+
 </style>
