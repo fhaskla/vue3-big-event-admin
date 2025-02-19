@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-CkUarTxb.js";import{o as r,L as s,r as t}from"./index-BtdZa8Qe.js";const c={},n={class:"form-body"};function a(o,d){return r(),s("div",n,[t(o.$slots,"default",{},void 0,!0)])}const m=e(c,[["render",a],["__scopeId","data-v-b2ac38c7"]]);export{m as F};
