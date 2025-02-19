@@ -125,11 +125,7 @@ provide('onSuccess', (isEdit) => {
     <el-table v-loading="loading" :data="tableData" height="calc(100% - 94px)">
       <el-table-column label="文章标题" width="300">
         <template #default="{ row }">
-          <el-link
-            type="primary"
-            :underline="false"
-            @click="onShow(row)"
-            style="width: 100%; justify-content: left"
+          <el-link type="primary" :underline="false" @click="onShow(row)"
             >{{ row.title }}
           </el-link>
         </template>
@@ -299,5 +295,10 @@ provide('onSuccess', (isEdit) => {
       }
     }
   }
+}
+.el-link {
+  width: 100%;
+  justify-content: left;
+  height: 32px;
 }
 </style>
