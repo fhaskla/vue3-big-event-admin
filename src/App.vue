@@ -1,18 +1,9 @@
 <script setup>
-import { useUserStore } from './stores/index.js'
-
-const userStore = useUserStore()
-const a = ref(0)
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 </script>
 
 <template>
-  我是APP{{ a }}----{{ userStore.token }}
-
-  <el-button type="success" @click="userStore.setToken('123')">
-    Success
-  </el-button>
+  <el-config-provider :locale="zhCn"><router-view /></el-config-provider>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
